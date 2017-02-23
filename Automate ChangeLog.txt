@@ -1,0 +1,53 @@
+# V 1.0
+Ethernet
+IR Sony + Small Remote
+Music via MPD
+Door Sensor
+Updated Pin Mapping
+Cooling Fan Contorl 
+
+# V 1.1
+Added Fan On at Boot
+
+# V 1.2
+Removed Fan on Boot
+Removed Out = True on Boot
+Added Auto Cooling Fan Speed Adjustment
+
+# V 1.3
+Added new api calls for music control via web
+
+# V 1.4
+Removed Undef(); Pin Function
+Added New Triac Board: 1st Two Outputs Snubbed (Only 1st used)
+Changed Fan speeds for cooling
+Added Fan Power Control
+Changed Pin Assignments for OUTPUTS only
+	Tube 37
+	Saver 41
+	Lamp 47
+	Fan 31
+	Exten 43
+	Speaker 35
+	Tube S 45
+*Additional Information
+	33 Noth...
+	39 Noth... Bad
+	49 Noth... Bad
+
+# V 1.5
+Added Temperature Sensor DHT11
+Added new api calls for Temperature via web
+192.168.2.101/?r
+
+# V 1.6
+Added new feature of windows start screen implemented whenever door is opened
+Enabled new remote button "Time" for the above feature
+Added lock PC on out
+
+# V 1.7
+Removed Old Harddrive and Fan Rpi interfaces
+Changed method of controlling Rpi Speakers
+Buttons 8 & 9 of remote freed
+Api calls 9 & 10 freed
+Fan set to be On on boot
